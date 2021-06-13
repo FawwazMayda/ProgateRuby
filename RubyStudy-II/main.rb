@@ -1,7 +1,7 @@
 languages = ["Jepang", "Inggris", "Spanyol"]
 
-# Cetak element pada indeks 1
-puts languages[1]
-
-# Cetak "Saya bisa berbahasa ____" menggunakan element pada index 0
-puts "Saya bisa berbahasa #{languages[0]}"
+# Dapatkan masing masing element dari variable `languages` menggunakan method `each`,
+# kemudian cetak "Saya bisa berbahasa ____"
+languages.each do |language|
+  puts "Saya bisa berbahasa #{language}"
+end
