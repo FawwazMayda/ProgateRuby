@@ -1,7 +1,11 @@
-# Tetapkan " adalah sebuah bahasa pemrograman yang mengagumkan" pada variable text
-text = " adalah sebuah bahasa pemrograman yang mengagumkan"
+length = 9
+width = 8
+puts width
+puts length * width
+puts "----"
 
-# Gabungkan string-string dibawah ini dengan variable text dan cetaklah hasilnya
-puts "Ruby" + text
-puts "Python" + text
-puts "Java" + text
+# Perbarui variable width dengan 13
+width = 13
+
+puts width
+puts length * width
