@@ -1,5 +1,5 @@
-# Gabungkan "Saya adalah " dan "Ninja Ken", lalu cetak
-puts "Saya adalah" + "Ninja Ken"
+# Tetapkan string "Ninja Ken" pada variable name
+name = "Ninja Ken"
 
-# Gabungkan "38" dan "19", lalu cetak
-puts "38" + "19"
+# Cetak variable name
+puts name
