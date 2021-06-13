@@ -1,7 +1,13 @@
-score = 96
+number = 48
 
-# Ketika `score` lebih besar atau sama dengan 95 dan kurang dari atau sama dengan 99,
-# cetak pesan "Bagus sekali! Hampir sempurna."
-if score >= 95 && score <= 99
-  puts "Bagus sekali! Hampir sempurna."
-end 
+# Tambahkan sebuah pernyataan bersyarat
+
+if number%3==0 && number%5==0
+  puts "Ini adalah kelipatan dari 15"
+elsif number%5==0
+  puts "Ini adalah kelipatan dari 5"
+elsif number%3==0
+  puts "Ini adalah kelipatan dari 3"
+else
+  puts "Ini bukan kelipatan dari 3 atau 5"
+end
