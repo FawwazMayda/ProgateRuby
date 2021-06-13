@@ -1,6 +1,6 @@
-length = 9
-width = 8
-area = length * width
+score = 92
 
-# Cetak "Nilai area adalah ____" menggunakan variable area
-puts "Nilai area adalah #{area}"
+# Jika nilai score lebih besar daripada 80, cetak "Bagus sekali!"
+if score > 80
+  puts "Bagus sekali!"
+end
