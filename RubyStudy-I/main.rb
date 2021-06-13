@@ -1,11 +1,8 @@
-score = 100
+score = 60
 
-# Jika nilai `score` adalah 100, cetak "Bagus sekali!"
-if score==100
+# Tambahkan sebuah pernyataan `else` untuk mencetak "Anda bisa lebih baik lagi!"
+if score > 80
   puts "Bagus sekali!"
-end
-
-# Jika nilai `score` tidak bernilai 100, cetak "Anda bisa lebih baik lagi!"
-if score!=100
+else
   puts "Anda bisa lebih baik lagi!"
 end
