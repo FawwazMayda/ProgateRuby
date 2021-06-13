@@ -1,3 +1,3 @@
-puts 3 * 5
-puts 6 / 2
-puts 9 % 2
+puts 13 * 9
+puts 32 / 8
+puts 18 % 5
