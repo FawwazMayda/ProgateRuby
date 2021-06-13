@@ -1,5 +1,10 @@
-# Tetapkan string "Ninja Ken" pada variable name
-name = "Ninja Ken"
+text = "Mari belajar pemrograman"
 
-# Cetak variable name
-puts name
+# Gabungkan variable text dan string yang telah diberikan, lalu cetak hasilnya
+puts text + " menggunakan Progate"
+
+length = 8
+width = 9
+
+# Cetak hasil dari perkalian length * width
+puts length * width
