@@ -1,11 +1,6 @@
 length = 9
 width = 8
-puts width
-puts length * width
+area = length * width
 
-puts "----"
-# Perbarui variable width dengan menambahkan 5 pada dirinya
-width += 5
-
-puts width
-puts length * width
+# Cetak "Nilai area adalah ____" menggunakan variable area
+puts "Nilai area adalah #{area}"
