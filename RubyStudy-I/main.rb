@@ -1,10 +1,7 @@
-score = 73
+score = 96
 
-# Tambahkan sebuah pernyataan `elsif` untuk mencetak "Cukup bagus!"
-if score > 80
-  puts "Bagus sekali!"
-elsif score > 60
-  puts "Cukup bagus!"
-else
-  puts "Anda bisa lebih baik lagi!"
-end
+# Ketika `score` lebih besar atau sama dengan 95 dan kurang dari atau sama dengan 99,
+# cetak pesan "Bagus sekali! Hampir sempurna."
+if score >= 95 && score <= 99
+  puts "Bagus sekali! Hampir sempurna."
+end 
