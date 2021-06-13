@@ -1,9 +1,8 @@
-languages = ["Jepang", "Inggris", "Spanyol"]
-border = "---------------------"
+# Tetapkan sebuah hash kedalam variable `exam`
+exam = {
+  "subject" => "Matematika",
+  "score" => 80
+}
 
-languages.each do |language|
-  # Cetak variable `border`
-  puts border
-  puts "Saya bisa berbahasa #{language}"
-end
-
+# Cetak variable `exam`
+puts exam
