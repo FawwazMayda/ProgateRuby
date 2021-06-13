@@ -1,7 +1,9 @@
 languages = ["Jepang", "Inggris", "Spanyol"]
+border = "---------------------"
 
-# Dapatkan masing masing element dari variable `languages` menggunakan method `each`,
-# kemudian cetak "Saya bisa berbahasa ____"
 languages.each do |language|
+  # Cetak variable `border`
+  puts border
   puts "Saya bisa berbahasa #{language}"
 end
+
