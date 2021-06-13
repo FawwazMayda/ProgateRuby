@@ -1,12 +1,11 @@
-score = 80
+score = 100
 
-# Cetak hasil dari `score > 80`
-puts score > 80
+# Jika nilai `score` adalah 100, cetak "Bagus sekali!"
+if score==100
+  puts "Bagus sekali!"
+end
 
-# Cetak hasil dari `score <= 80`
-puts score <= 80
-
-# Jika `score` kurang dari atau sama dengan 80, cetak "Anda bisa lebih baik lagi!"
-if score <= 80
+# Jika nilai `score` tidak bernilai 100, cetak "Anda bisa lebih baik lagi!"
+if score!=100
   puts "Anda bisa lebih baik lagi!"
 end
